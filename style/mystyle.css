@@ -1,0 +1,271 @@
+* 
+{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{	
+    margin: 0 auto;
+    height: 500px;
+    position: relative;
+}
+#register
+{
+    width: 332px;
+    margin: 0 auto; 	
+    margin-top: 10px;
+}
+
+#lock{
+margin:0, auto;
+float:left;
+	
+	
+}
+label{
+ 	font-weight: 500;
+    font-size: 15px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+}
+
+.rinput
+{
+    width: 300px;
+    height: 45px;
+    border: 1px solid #c0c8c9;
+    padding-left: 30px;
+    font-size: 1.3rem;
+    outline: none;
+    margin-top: 15px;
+} 
+
+.newcreateacc{
+	
+	width: 300px;
+    height: 45px;
+    font-size: 16px;
+    border: 1px solid #c0c8c9;
+    font-size: 1.3rem;
+    outline: none;
+    background-color: rgb(81,173,237);
+    margin-top: 15px;
+	
+	
+}
+
+
+
+#register #fname
+{
+    width: 133px;
+    margin-right: -5px;
+    border-right-color: transparent;
+    /*border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;*/
+}
+#register #lname
+{
+    width: 133px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.rightpanel
+{
+    position: relative;
+    right: 200px;
+    width: 100px;
+}
+#butt
+{
+    margin: 0px auto;
+    height: 45px;
+    width: 300px;
+    margin-top: 40px;
+}
+
+input.createacc
+{
+    border: 0px;
+    margin: 0px auto;
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+    /*border-radius: 4px;*/
+    background-color: rgb(81,173,237);
+    color: #FFFFFF;
+    font-weight: 400;
+}
+#logintitle
+{
+
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+}
+#emaillogin
+{
+    width: 352px;
+    position: relative;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+p.ord
+{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+#tline
+{
+    width: 1px;
+    height: 170px;
+    background: #c0c8c9;
+    margin: 0 auto;
+    position: relative;
+}
+#bline
+{
+    width: 1px;
+    height: 170px;
+    background: #c0c8c9;
+    margin: 0 auto;
+    position: relative;
+}
+#centerline
+{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    transform: translateY(-50%);
+    left: 650px;
+}
+#or
+{
+
+    font-size: 24px
+}
+#top
+{
+    width: 100%;
+    height: 56px;
+    background: rgb(135, 211, 124);
+}
+#leftheader
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 100px;
+    height: 56px;
+    position: absolute;
+    left: 70px;
+}
+#secondleftheader
+{
+    border-right: 1px solid white;
+    width: 100px;
+    height: 56px;
+    position: absolute;
+    left: 172px;
+}
+#rightheader
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    width: 100px;
+    height: 56px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+#rightheader a
+{
+    position: relative;
+    float: right;
+    padding: 16px 20px;
+    font-size: 20px;
+}
+#leftheader a
+{
+    position: relative;
+    float: left;
+    padding: 16px 20px;
+    font-size: 20px;
+}
+#secondleftheader a
+{
+    position: relative;
+    float: left;
+    padding: 16px 25px;
+    font-size: 20px;
+
+}
+#top a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+#top a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#top a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#top a:active {
+    text-decoration: none;
+}
+
+#second
+{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(242,242,242);
+}
+
+.forgot{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.forgot a
+{
+    text-decoration: none;
+}
+.nwarning
+{
+    text-align: center;
+    color: Red;
+    border: 1px solid red;
+    width: 133px;
+}
+div.left
+{
+    float: left;
+}
+.passwarning{
+    text-align: center;
+    color:green;
+    padding: 10px 0px 10px 0px;
+}
+
+table,th, td {
+    border: 1px solid black;
+}
+h1{
+    font-size: 50px;
+}
